@@ -1,0 +1,133 @@
+#services {
+    height: 100vh;
+    margin-top: 1px;
+}
+
+.services__container {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    gap: 0.3rem;
+}
+
+.services__UI {
+    background: var(--color-bg-variant);
+    border: 1px solid var(--color-primary);
+    border-radius: 0 0 2rem 2rem;
+    height: 330px;
+    width: 300px;
+    transition: var(--transition);
+}
+
+.services__UI:hover {
+    background: transparent;
+    border: 1px solid var(--color-bg-variant);
+    cursor: default;
+}
+
+.services__UI .title {
+    background-color: var(--color-primary);
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+
+.services__UI .title h4 {
+    color: var(--color-bg-variant);
+    text-align: center;
+    padding: 20px;
+}
+
+.services__cards {
+    padding: 30px 30px;
+}
+
+.card {
+    display: flex;
+    color: var(--color-white);
+    margin-bottom: 25px;
+}
+
+.icon_check {
+    color: var(--color-primary);
+    margin-right: 20px;
+    padding-top: 3px;
+}
+
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
+@media screen and (max-width: 1024px){
+    #services {
+        height: 50vh;
+        margin-top: -80px;
+    }
+    
+    .services__container {
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        gap: 0.5rem;
+    }
+
+    .services__UI {
+        background: var(--color-bg-variant);
+        border: 1px solid var(--color-primary);
+        border-radius: 0 0 2rem 2rem;
+        height: 380px;
+        width: 210px;
+        transition: var(--transition);
+    }
+    
+    .services__UI:hover {
+        background: transparent;
+        border: 1px solid var(--color-bg-variant);
+        cursor: default;
+    }
+
+    .services__cards {
+        padding: 30px 30px;
+    }
+    
+    .card {
+        display: flex;
+        color: var(--color-white);
+        margin-bottom: 25px;
+    }
+    
+    .icon_check {
+        color: var(--color-primary);
+        margin-right: 20px;
+        padding-top: 3px;
+    }
+
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 600px){
+    #services {
+        height: 125vh;
+        margin-top: 120px;
+    }
+
+    .services__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding-left: 5px;
+    }
+
+    .services__UI {
+        background: var(--color-bg-variant);
+        border: 1px solid var(--color-primary);
+        border-radius: 0 0 2rem 2rem;
+        height: 260px;
+        width: 21.8rem;
+        transition: var(--transition);
+    }
+
+    .services__UI .title h4 {
+        color: var(--color-bg-variant);
+        text-align: center;
+        padding: 20px;
+    }
+
+    .services__cards {
+        padding: 30px 15px;
+    }
+
+}
