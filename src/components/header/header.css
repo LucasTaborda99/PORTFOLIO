@@ -63,6 +63,7 @@ header {
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
+    transition: var(--transition);
 }
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
