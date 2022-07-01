@@ -74,8 +74,58 @@ header {
 }
 
 /* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
-@media screen and (max-width: 400px){
+@media screen and (max-width: 420px){
 
+    header {
+        height: 100vh;
+        position: relative;
+        padding-top: 3rem;
+        margin-bottom: -150px;
+    }
+
+    .header__container {
+        text-align: center;
+        height: 100vh;
+        position: relative;
+        line-height: 3rem;
+        font-size: 1rem;
+    }
+
+    /* =============== HEADER SOCIALS =============== */
+    .header__socials, .scroll__down {
+        display: none;
+    }
+
+    /* =============== CTA =============== */
+    .cta {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        display: flex;
+        gap: 1.2rem;
+        justify-content: center;
+    }
+
+    .cta a {
+        line-height: 1.2rem;
+        padding: 0.5rem;
+        border: 1px solid var(--color-primary);
+        border-radius: 2rem;
+    }
+
+    /* =============== ME =============== */
+    .me {
+        position: relative;
+        margin-top: 4rem;
+        width: 18rem;
+        height: 18rem;
+        left: calc(50% - 9rem);
+        border: 0.5px solid var(--color-primary);
+        border-radius: 12rem 12rem 0 0 ;
+        overflow: hidden;
+    }
+}
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (min-height: 880px){
     header {
         height: 100vh;
         position: relative;

@@ -140,7 +140,7 @@
 @media screen and (min-height: 650px){
     #services {
         height: 100vh;
-        margin-top: 140px;
+        margin-top: 220px;
     }
 
     .services__UI {
@@ -148,7 +148,7 @@
         border: 1px solid var(--color-primary);
         border-radius: 0 0 2rem 2rem;
         height: 300px;
-        width: 344px;
+        width: 365px;
         transition: var(--transition);
     }
 }
