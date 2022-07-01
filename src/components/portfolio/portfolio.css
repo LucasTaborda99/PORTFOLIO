@@ -57,7 +57,7 @@
 
     #portfolio {
         height: fit-content;
-        margin-top: 1px;
+        margin-top: 180%;
     }
 
     .cards {
@@ -65,4 +65,13 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (min-height: 650px){
+    #portfolio {
+        height: fit-content;
+        margin-top: 90%;
+    }
+}
+
 }

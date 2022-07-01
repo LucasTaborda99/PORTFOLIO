@@ -134,37 +134,43 @@
 
     #about {
         height: 100vh;
-        margin-top: 1px;
+        margin-top: 70%;
     }
-
 
     .about__me {
         width: 41%;
-        height: 279%;
+        height: 100%;
         aspect-ratio: 1/1;
         border-radius: 2rem;
         background: linear-gradient(45deg, transparent, var(--color-white), transparent);
-        display: grid;
+        display: none;
+        /* display: grid; */
         place-items: center;
         margin-left: 88px;
     }
 
     .about__me-image {
+        display: none;
+        /* display: grid; */
         border-radius: 2rem;
         overflow: hidden;
         transform: rotate(10deg);
         transition: var(--transition);
-        height: 400px;
+        /* height: 300px;
+        width: 350px; */
     }
 
     .about__cards {
-        margin-top: 300px;
+        display: none;
+        /* display: grid; */
+        margin-top: 1px;
         grid-template-columns: 1fr 1fr;
         gap: 1fr;
     }
 
     .about__content {
         text-align: left;
+        margin-top: -60px;
     }
 
     .about__content p {
@@ -184,5 +190,13 @@
     .about__content a {
         margin-left: 37%;
     }
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (min-height: 650px){
+    #about {
+        height: 100vh;
+        margin-top: 1%;
+    }
+}
 
 }

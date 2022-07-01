@@ -100,8 +100,8 @@
 /* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
 @media screen and (max-width: 600px){
     #services {
-        height: 125vh;
-        margin-top: 120px;
+        height: 100vh;
+        margin-top: 115%;
     }
 
     .services__container {
@@ -111,12 +111,18 @@
         padding-left: 5px;
     }
 
+    .services__UI .title h4 {
+        color: var(--color-bg-variant);
+        text-align: center;
+        padding: 20px;
+    }
+
     .services__UI {
         background: var(--color-bg-variant);
         border: 1px solid var(--color-primary);
         border-radius: 0 0 2rem 2rem;
-        height: 260px;
-        width: 21.8rem;
+        height: 300px;
+        width: 283px;
         transition: var(--transition);
     }
 
@@ -129,5 +135,22 @@
     .services__cards {
         padding: 30px 15px;
     }
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (min-height: 650px){
+    #services {
+        height: 100vh;
+        margin-top: 140px;
+    }
+
+    .services__UI {
+        background: var(--color-bg-variant);
+        border: 1px solid var(--color-primary);
+        border-radius: 0 0 2rem 2rem;
+        height: 300px;
+        width: 344px;
+        transition: var(--transition);
+    }
+}
 
 }

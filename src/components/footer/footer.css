@@ -83,4 +83,17 @@ footer a {
     .footer__socials {
         margin-bottom: 2.6rem;
     }
+
+    .footer__copyright {
+        margin-bottom: 1rem;
+        margin-right: 10px;
+    }
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (min-height: 650px){
+    footer {
+        margin-top: -200px;
+    }
+}
+
 }

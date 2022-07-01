@@ -104,7 +104,7 @@ small {
 @media screen and (max-width: 600px){
     #experience {
         height: 100vh;
-        margin-top: 480px;
+        margin-top: -30%;
     }
     
     .experience__container {
@@ -118,8 +118,9 @@ small {
         border: 1px solid transparent;
         border-radius: 1rem;
         height: 23rem;
-        width: 21.8rem;
+        width: 283px;
         transition: var(--transition);
+        margin-left: 2px;
     }
 
     .experience__frontend:hover {
@@ -131,11 +132,31 @@ small {
     .experience__cards {
         display: grid;
         grid-template-columns: 48% 50%;
-        margin-left: 8px;
+        margin-left: -15px;
+        margin-right: 5px;
     }
 
     .experience__card {
         display: grid;
         margin: 0.5rem 2rem 2rem;
     }
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (min-height: 650px){
+    #experience {
+        height: 100vh;
+        margin-top: -95%;
+    }
+
+    .experience__frontend {
+        background: var(--color-bg-variant);
+        border: 1px solid transparent;
+        border-radius: 1rem;
+        height: 23rem;
+        width: 345px;
+        transition: var(--transition);
+        margin-left: 2px;
+    }
+}
+
 }
