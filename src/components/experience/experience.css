@@ -118,7 +118,7 @@ small {
         border: 1px solid transparent;
         border-radius: 1rem;
         height: 23rem;
-        width: 283px;
+        width: 300px;
         transition: var(--transition);
         margin-left: 2px;
     }
@@ -142,7 +142,7 @@ small {
     }
 }
 /* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
-@media screen and (min-height: 650px){
+@media screen and (min-height: 620px){
     #experience {
         height: 100vh;
         margin-top: -300px;
