@@ -5,13 +5,14 @@ import {FaGithub} from 'react-icons/fa'
 
 const Footer = () => {
   return (
+    <section id='footer'>
     <footer>
       <a href="#" className='footer__logo'>LUCAS TABORDA</a>
 
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
+        <li><a href="#experience">Skills</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -24,10 +25,11 @@ const Footer = () => {
 
       <div className="footer__copyright">
         <small>
-          &copy; Lucas Taborda. Todos os direitos reservados.
+          &copy; Lucas Taborda. All rights reserved.
         </small>
       </div>
     </footer>
+    </section>
   )
 }
 

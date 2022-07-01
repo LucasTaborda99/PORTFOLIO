@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/me2.jpg'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
+import {IoBookSharp} from 'react-icons/io5'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
@@ -24,24 +24,25 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>1+ Years Working</small>
             </article>
 
             <article className='about__card'>
-              <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>300+ Worldwide</small>
+              <IoBookSharp className='about__icon'/>
+              <h5>Certificates</h5>
+              <small> 3+ Completed Courses</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>10+ Projects</small>
             </article>
           </div>
 
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi quae earum est animi et expedita facilis optio aspernatur. Reprehenderit quam illo distinctio eligendi est tempore commodi enim aspernatur sequi minima!
+          <p>I'm a grad student of Systems Analysis and Development, and  
+          I'm passionate about bringing both the technical and visual aspects of digital products to life.
+          I'm happiest when I'm creating, learning, exploring and thinking about how to make things better. 
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's talk</a>
