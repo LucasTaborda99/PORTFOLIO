@@ -143,12 +143,12 @@ small {
 }
 /* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
 @media screen and (min-height: 620px){
-    #experience {
+    /* #experience {
         height: 100vh;
         margin-top: -300px;
-    }
+    } */
 
-    .experience__frontend {
+    /* .experience__frontend {
         background: var(--color-bg-variant);
         border: 1px solid transparent;
         border-radius: 1rem;
@@ -156,5 +156,5 @@ small {
         width: 365px;
         transition: var(--transition);
         margin-left: 2px;
-    }
+    } */
 }
