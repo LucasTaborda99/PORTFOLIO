@@ -65,7 +65,7 @@ const Services = () => {
               </article>
               <article className="card">
                 <BsCheckLg className='icon_check'/>
-                <h5>Simplicity for your audience.</h5>
+                <h5>Simplicity for your audience</h5>
               </article>
             </div>
         </div>
